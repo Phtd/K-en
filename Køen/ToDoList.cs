@@ -6,8 +6,8 @@ namespace Køen
 {
     public class ToDo
     {
-        private string activity { get; set; }
-        private int amount { get; set; }
+        private string activity;
+        private int amount;
         public string Activity
         {
             get { return activity; }
